@@ -1,0 +1,34 @@
+@page
+@{
+}
+ 
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#Id</th>
+      <th scope="col">Origen</th>
+      <th scope="col">Destino</th>
+      <th scope="col">Tiempo estimado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>Twitter</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>Facebook</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry the Bird</td>
+      <td>Arias</td>
+      <td>Instagram</td>
+    </tr>
+  </tbody>
+</table>
