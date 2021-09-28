@@ -5,7 +5,17 @@
  
 <h1>Listado de Buses</h1>
 <table class="table table-hover table-dark">
-    @foreach (var bus in Model.Buses)
+   <thead>
+    <tr>
+      <th scope="col">#Id</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Modelo</th>
+      <th scope="col">Kilometraje</th>
+      <th scope="col">Numero de asientos</th>
+      <th scope="col">Placa</th>
+    </tr>
+  </thead>
+   @foreach (var bus in Model.Buses)
     {
         <tr>
             <td>@bus.id</td>
@@ -16,7 +26,7 @@
             <td>@bus.placa</td>
             <td>
               <a class="btn btn-info" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" href="">Editar</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@bus.id">Editar</a>
               <a class="btn btn-danger" href="">Eliminar</a>
               </td>
         </tr>
