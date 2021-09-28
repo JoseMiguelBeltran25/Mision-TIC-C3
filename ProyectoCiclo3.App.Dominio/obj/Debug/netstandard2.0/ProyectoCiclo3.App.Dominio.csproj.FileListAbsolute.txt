@@ -7,3 +7,12 @@ C:\Users\jjmmb\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\bin\Debug\n
 C:\Users\jjmmb\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
 C:\Users\jjmmb\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 C:\Users\jjmmb\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\braya\OneDrive\Escritorio\Poryecto\Mision-TIC-C3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.deps.json
+C:\Users\braya\OneDrive\Escritorio\Poryecto\Mision-TIC-C3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\Users\braya\OneDrive\Escritorio\Poryecto\Mision-TIC-C3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\braya\OneDrive\Escritorio\Poryecto\Mision-TIC-C3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
+C:\Users\braya\OneDrive\Escritorio\Poryecto\Mision-TIC-C3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\braya\OneDrive\Escritorio\Poryecto\Mision-TIC-C3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
+C:\Users\braya\OneDrive\Escritorio\Poryecto\Mision-TIC-C3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\braya\OneDrive\Escritorio\Poryecto\Mision-TIC-C3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\Users\braya\OneDrive\Escritorio\Poryecto\Mision-TIC-C3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
