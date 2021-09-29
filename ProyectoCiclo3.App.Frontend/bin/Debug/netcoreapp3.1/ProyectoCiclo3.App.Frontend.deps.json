@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ProyectoCiclo3.App.Frontend/1.0.0": {
         "dependencies": {
+          "ProyectoCiclo3.App.Dominio": "1.0.0",
           "ProyectoCiclo3.App.Persistencia": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProyectoCiclo3.App.Persistencia\ProyectoCiclo3.App.Persistencia.csproj" />
+    <ProjectReference Include="..\ProyectoCiclo3.App.Dominio\ProyectoCiclo3.App.Dominio.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
