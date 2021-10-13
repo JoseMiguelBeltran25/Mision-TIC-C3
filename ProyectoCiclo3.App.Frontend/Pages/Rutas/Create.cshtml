@@ -1,17 +1,36 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.FormRutaModel
 @{
 }
  
 <div class="text-center">
-<form action="">
-  <label for="Id" class="form-label">Id:</label>
-  <input type="number" class="form-control" id="id" name="id" placeholder="Id">
+<form method="post">
+  @* <label for="Id" class="form-label">Id:</label>
+  <input type="number" class="form-control" id="id" name="id" placeholder="Id" required> *@
+  
   <label for="Origen" class="form-label">Origen:</label>
-  <input type="text" class="form-control" id="origen" name="origen" placeholder="Origen">
+  <select asp-for="Ruta.origen" class="form-control" required>
+        <option value="">Selecciona el origen</option>
+        @foreach (var estacion in Model.Estaciones)
+    {
+        <option value="@estacion.id">@estacion.nombre</option>
+    }
+    </select>
+  @* <input type="text" class="form-control" placeholder="Origen" asp-for="Ruta.origen"> *@
+  <span class="text-danger" asp-validation-for="Ruta.origen"></span>
   <label for="Destino" class="form-label">Destino:</label>
-  <input type="text" class="form-control" id="destino" name="destino" placeholder="Destino">
+  <select asp-for="Ruta.destino" class="form-control" required>
+        <option value="">Selecciona el destino</option>
+        @foreach (var estacion in Model.Estaciones)
+    {
+        <option value="@estacion.id">@estacion.nombre</option>
+    }
+    </select>
+  @* <input type="text" class="form-control" placeholder="Destino" asp-for="Ruta.destino"> *@
+  <span class="text-danger" asp-validation-for="Ruta.destino"></span>
+
   <label for="TiempoEstimado" class="form-label">Tiempo Estimado:</label>
-  <input type="text" class="form-control" id="tiempo_estimado" name="tiempo_estimado" placeholder="Tiempo Estimado">
+  <input type="number" class="form-control" placeholder="Tiempo Estimado" asp-for="Ruta.tiempo_estimado" required maxlength="20" >
   <hr>
   <button type="submit" class="btn btn-success">Enviar</button>
 </form>

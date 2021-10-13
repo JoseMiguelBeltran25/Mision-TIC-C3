@@ -1,21 +1,23 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.FormBusModel
 @{
 }
  
 <div class="text-center">
-<form action="">
-  <label for="Id" class="form-label">Id:</label>
-  <input type="number" class="form-control" id="id" name="id" placeholder="Id">
+<form method="post">
+  
   <label for="Marca" class="form-label">Marca:</label>
-  <input type="text" class="form-control" id="marca" name="marca" placeholder="Marca">
+  <input type="text" class="form-control" placeholder="Marca" asp-for="Bus.marca">
+  <span class="text-danger" asp-validation-for="Bus.marca"></span>
+
   <label for="Modelo" class="form-label">Modelo:</label>
-  <input type="number" class="form-control" id="modelo" name="modelo" placeholder="Modelo">
+  <input type="number" class="form-control" placeholder="Modelo" required asp-for="Bus.modelo">
   <label for="Kilometraje" class="form-label">Kilometraje:</label>
-  <input type="float" class="form-control" id="kilometraje" name="kilometraje" placeholder="Kilometraje">
-  <label for="NumeroAsientos" class="form-label">Numero De Asientos:</label>
-  <input type="number" class="form-control" id="numero_asientos" name="numero_asientos" placeholder="Numero De Asientos">
+  <input type="number" class="form-control" placeholder="Kilometraje" required asp-for="Bus.kilometraje">
+  <label for="Número de asientos" class="form-label">Número de asientos:</label>
+  <input type="number" class="form-control" placeholder="Número de asientos" required asp-for="Bus.numero_asientos">
   <label for="Placa" class="form-label">Placa:</label>
-  <input type="text" class="form-control" id="placa" name="placa" placeholder="Placa">
+  <input type="text" class="form-control" placeholder="Placa" unique required maxlength="6" minlength="6" asp-for="Bus.placa">
   <hr>
   <button type="submit" class="btn btn-success">Enviar</button>
 </form>

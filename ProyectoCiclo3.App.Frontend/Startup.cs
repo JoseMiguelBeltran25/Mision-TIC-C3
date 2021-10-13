@@ -25,7 +25,10 @@ namespace ProyectoCiclo3.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSingleton<RepositorioBuses, RepositorioBuses>();
+            services.AddSingleton<RepositorioBuses>();
+            services.AddSingleton<RepositorioRutas>();
+            services.AddSingleton<RepositorioEstaciones>();
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

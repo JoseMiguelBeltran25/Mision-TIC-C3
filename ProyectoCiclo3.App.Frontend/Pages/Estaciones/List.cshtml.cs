@@ -9,19 +9,34 @@ using ProyectoCiclo3.App.Dominio;
  
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
-    public class ListEstacionesModel : PageModel
+    public class ListEstacionModel : PageModel
     {
-       private readonly RepositorioEstaciones repositorioEstaciones;
-        public IEnumerable<Estaciones> estaciones {get;set;}
+       
+        private readonly RepositorioEstaciones repositorioEstaciones;
+        [BindProperty]
+        public Estaciones Estacion {get;set;}
+
+        public IEnumerable<Estaciones> Estaciones {get;set;}
  
-    public ListEstacionesModel(RepositorioEstaciones repositorioEstaciones)
+    public ListEstacionModel(RepositorioEstaciones repositorioEstaciones)
     {
         this.repositorioEstaciones=repositorioEstaciones;
      }
  
     public void OnGet()
     {
-        estaciones=repositorioEstaciones.GetAll();
+        Estaciones=repositorioEstaciones.GetAll();
     }
+
+    public IActionResult OnPost()
+    {
+        if(Estacion.id>0)
+        {
+        //Estacion = 
+        repositorioEstaciones.Delete(Estacion.id);
+        }
+        return RedirectToPage("./List");
+    }
+
     }
 }
