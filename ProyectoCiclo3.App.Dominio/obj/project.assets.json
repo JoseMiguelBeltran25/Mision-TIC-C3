@@ -285,11 +285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jjmmb\\Desktop\\ProyectoCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
       "projectName": "ProyectoCiclo3.App.Dominio",
-      "projectPath": "C:\\Users\\jjmmb\\Desktop\\ProyectoCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+      "projectPath": "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\jjmmb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jjmmb\\Desktop\\ProyectoCiclo3\\ProyectoCiclo3.App.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jjmmb\\AppData\\Roaming\\NuGet\\NuGet.Config"

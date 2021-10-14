@@ -7271,11 +7271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jjmmb\\Desktop\\ProyectoCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
       "projectName": "ProyectoCiclo3.App.Persistencia",
-      "projectPath": "C:\\Users\\jjmmb\\Desktop\\ProyectoCiclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+      "projectPath": "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\jjmmb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jjmmb\\Desktop\\ProyectoCiclo3\\ProyectoCiclo3.App.Persistencia\\obj\\",
+      "outputPath": "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jjmmb\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7289,8 +7289,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\jjmmb\\Desktop\\ProyectoCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\jjmmb\\Desktop\\ProyectoCiclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
+            "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
             }
           }
         }

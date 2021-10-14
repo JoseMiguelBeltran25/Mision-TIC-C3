@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5fhNMETr5QI580nw6i9MEEpFlGhb+O9E7qrW2a+aLEHkRrptI+0y9RZKwNJkD9+Sn5Ps2i3tRUiX4Wxh7o9IOA==",
+  "dgSpecHash": "gtLrv61zqft6kxvNi0Rcbl9aijRxSfhsooo1o16OR5MZ+1FUD71v2EBOhR1vuEkL6sfcJInX6dy1aJ8fDmHyZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jjmmb\\Desktop\\ProyectoCiclo3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jjmmb\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\jjmmb\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
