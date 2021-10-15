@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TVjO5Q59vreiDG7+LO2zjKoKTZ5OZbln07x8il2hf0XxDVlUiA7IuxlQ28bW0tfwPzqiJTWHY9DjDvFedmj5ZA==",
+  "dgSpecHash": "kF6pjZ1B3NRrvZ6BYDjKj3JnIQc+89XO69IwLR7Nob+2SwwKmUDEILErEGuBbF2g5zhJH4NHf4U12D0xxOJouA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jjmmb\\Desktop\\Mision-TIC-C3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\braya\\OneDrive\\Escritorio\\proyecto\\Mision-TIC-C3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jjmmb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jjmmb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\jjmmb\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\braya\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\braya\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\braya\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
